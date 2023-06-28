@@ -1,10 +1,11 @@
 import React from 'react'
+import '../app.scss';
+import '../home/home.scss';
 
 const Home = () => {
   return (
-    <div>
-      HEllo world
-      
+    <div className='home'>
+      HEllo worldd
     </div>
   )
 }
